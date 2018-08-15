@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="first_Nav">
+
+        <div class="blonk_Div">
+            <h1></h1>
+        </div>
+
+        <div class="name_Div">
+            <h1>Winnie</h1>
+        </div>
+
+        <div class="blank_Div">
+            <h1></h1>
+        </div>
+
+        <div class="links_Div">
+            <div>
+                <a href="/">About</a> &nbsp &nbsp</div>
+            <div> &nbsp &nbsp
+                <a href="/portfolio">Portfolio</a> &nbsp &nbsp </div>
+            <div> &nbsp &nbsp
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="second_Nav">
+        <div class="about_Div">
+            <p class="style_P1">
+                <b>Contact</b>
+            </p>
+            <form class="form_Div">
+                <p class="name_Style">Name</p>
+                <input type="text" textarea class="textArea" rows="1" id="first_q" placeholder="Enter name" name="namePerson">
+                </textarea>
+                <br>
+                <br>
+                <p class="email_Style">Email</p>
+                <input type="text" textarea class="textArea" rows="1" id="second_q" placeholder="Enter email" name="email">
+                </textarea>
+                <br>
+                <br>
+                <p class="message_Style">Message</p>
+                <input type="text" textarea class="textAreaTwo" rows="12" id="third_q" placeholder="Enter message" name="message">
+                </textarea>
+                <br>
+                <br>
+                <!-- <input type="submit"> -->
+                <button type="button" id="submit">SUBMIT</button>
+            </form>
+        </div>
+
+        <div class="social_Div">
+            <p class="style_P2">
+                <b>Connect with Me</b>
+            </p>
+
+            <div class="img_Div">
+                <a href="https://github.com/WCW789" target="_blank"><img class="a_Link" src="./images/github.GIF" alt="Github"></img></a>
+                &nbsp
+                <a href="https://www.linkedin.com/in/winnie-wu-profile/" target="_blank">
+                    <img class="a_Link" src="./images/linkedin.GIF" alt="LinkedIn"></img>
+                </a>
+                &nbsp
+                <a href="https://stackoverflow.com/users/9277898/winnie-w" target="_blank">
+                    <img class="a_Link" src="./images/StackOverflow.GIF" alt="Stack Overflow"></img>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <b>Copyright © 2018 Winnie W </b>
+    </footer>
+
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+    $("#first_q").val(""); $("#second_q").val(""); $("#third_q").val("");
+    console.log("whatever dudes");
+
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+
+        var userAnswers = {
+            namePerson: $("#first_q").val().trim(),
+            email: $("#second_q").val().trim(),
+            message: $("#third_q").val().trim(),
+        };
+
+        $.post("/submit", userAnswers)
+            .then(function (data) {
+                console.log("More");
+            });
+
+        console.log("whatever");
+
+        $("#first_q").val(""); $("#second_q").val(""); $("#third_q").val("");
+
+    });
+
+</script>

@@ -1,0 +1,883 @@
+  
+  body {
+    display: flex;
+    flex-flow: column;
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    min-height: 100vh;
+    width: auto;
+  } 
+
+  .first_Nav {
+    display: flex;
+    align-content: flex-start;
+    border-bottom: .3vh solid gray;
+  }  
+
+  .blonk_Div {
+    width: 25vh;
+  }
+
+  .name_Div {
+    display: flex;
+    justify-content: space-between;
+    background: teal;
+    width: auto;
+  }
+
+  h1 {
+    color: white;
+    font-size: 140%;
+    margin: 3.125vh;
+  }
+
+  .blank_Div{
+    width: 77.5vh;
+  }
+
+  .links_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 104.7vh;
+  }
+
+  .second_Nav{
+    background: brown;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+    flex: 1;
+  }
+
+  .about_Div{
+    display: flex;
+    flex-flow: column;
+    width: 101.7vh;
+    height: 100%;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .style_P1 {
+    color: teal;
+    font-size: xx-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;    
+    padding-left: 3.125vh;
+    padding-top: 3.125vh;
+  }
+
+  .para_Div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .img_Class {
+    width: 25vh;
+    height: 45vh;
+    padding-right: 3.125vh;
+    padding-left: 3.125vh;
+    padding-top: 3.125vh;
+    padding-bottom: 3.125vh;
+    font: bold;
+  }
+
+  .lorum_Div {
+    padding-right: 3.125vh;
+    padding-top: 3.125vh;
+    padding-bottom: 3.125vh;
+  } 
+
+  .social_Div {
+    display: flex;
+    flex-flow: column;
+    width: 42.2vh;
+    height: 100%;
+    background: white;
+    margin-top: 6.25vh;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .style_P2 {
+    text-align: center;
+    color: teal;
+    font-size: x-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;
+    padding-top: 3.125vh;
+  }
+
+  .img_Div {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.9vh;
+  }
+
+  .a_Link {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .footer {
+    display: flex;
+    width: auto;
+    border-top: 1.1vh solid teal;
+    background: gray;
+    justify-content: center;
+    padding: 2.8vh;
+    color: white;
+  }
+
+  /* For Portfolio HTML: */
+
+  .image_Section {
+    width: 101.6vh;
+    height: 93.75vh;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .overallimages_Div {
+    display: flex;
+    align-items: center;
+    background: white;
+  }
+
+  .image_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 85.9vh;
+  }
+  
+  .imageOne {
+    position: relative; 
+    padding-top: 3.125vh;     
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capOne {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageTwo {
+    position: relative;
+    padding-top: 3.125vh;
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capTwo {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageThree {
+    position: relative;
+    padding-top: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capThree {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .image2_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 85.9vh;
+  }
+
+  .imageFour {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-top: 3.125vh;
+  } 
+
+  .capFour {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageFive {
+    position: relative;
+    padding-bottom: 3.125vh;
+  } 
+
+  .capFive {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }  
+
+  /* For Contact HTML: */
+  
+  .form_Div {
+    padding-top: 3.125vh;
+    padding-left: 3.125vh;
+    padding-bottom: 3.125vh;
+  }
+
+  .name_Style {
+    color: teal;
+    padding-bottom: .78vh;
+    font-size: large;   
+  }
+
+  .email_Style {
+    color: teal;
+    padding-bottom: .78vh; 
+    font-size: large;   
+  }
+
+  .message_Style {
+    color: teal;
+    padding-bottom: .78vh;   
+    font-size: large; 
+  }
+
+  .textArea {
+    border: .47vh solid lightgray;
+    width: 95%;
+    margin: auto;
+  }
+
+  .textAreaTwo {
+    border: .47vh solid lightgray;
+    width: 95%;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+
+  /* For the links to the other pages */
+
+  a:link {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+  
+  @media screen and (max-width: 980px) {
+  
+  body {
+    display: flex;
+    flex-flow: column;
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    min-height: 100vh;
+    width: auto;
+  } 
+
+  .first_Nav {
+    display: flex;
+    align-content: flex-start;
+    border-bottom: .3vh solid gray;
+  }  
+
+  .blonk_Div {
+    width: 25vh;
+  }
+
+  .name_Div {
+    display: flex;
+    justify-content: space-between;
+    background: teal;
+    width: auto;
+  }
+
+  h1 {
+    color: white;
+    font-size: 140%;
+    margin: 3.125vh;
+  }
+
+  .blank_Div{
+    width: 77.5vh;
+  }
+
+  .links_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 104.7vh;
+  }
+
+  .second_Nav{
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+    flex: 1;
+  }
+
+  .about_Div{
+    display: flex;
+    flex-flow: column;
+    width: 101.7vh;
+    height: 100%;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .style_P1 {
+    color: teal;
+    font-size: xx-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;    
+    padding-left: 3.125vh;
+    padding-top: 3.125vh;
+  }
+
+  .para_Div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .img_Class {
+    width: 25vh;
+    height: 45vh;
+    padding-right: 3.125vh;
+    padding-left: 3.125vh;
+    padding-top: 3.125vh;
+    padding-bottom: 3.125vh;
+    font: bold;
+  }
+
+  .lorum_Div {
+    padding-right: 3.125vh;
+    padding-top: 3.125vh;
+    padding-bottom: 3.125vh;
+  } 
+
+  .social_Div {
+    display: flex;
+    flex-flow: column;
+    width: 42.2vh;
+    height: 100%;
+    background: white;
+    margin-top: 6.25vh;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .style_P2 {
+    text-align: center;
+    color: teal;
+    font-size: x-large;
+    border-bottom: .45vh solid lightgrey;
+    padding-bottom: 1.6vh;
+    padding-top: 3.125vh;
+  }
+
+  .img_Div {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.9vh;
+  }
+
+  .a_Link {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .footer {
+    display: flex;
+    width: auto;
+    border-top: 1.1vh solid teal;
+    background: gray;
+    justify-content: center;
+    padding: 2.8vh;
+    color: white;
+  }
+
+  /* For Portfolio HTML: */
+
+  .image_Section {
+    display: flex;
+    flex-flow: column;
+    width: 101.6vh;
+    height: 100%;
+    margin: 6.25vh 6.25vh 6.25vh 0vh;
+    background: white;
+  }
+
+  .overallimages_Div {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    height: 100%;  
+  }
+
+  .image_Div {
+    display: block;
+    margin: auto;
+    height: 100%;
+  }
+  
+  .imageOne {
+    position: relative; 
+    padding-top: 3.125vh;     
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capOne {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageTwo {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capTwo {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageThree {
+    position: relative;
+    padding-bottom: 3.125vh;
+    padding-left: 11.7vh;
+  } 
+
+  .capThree {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .image2_Div {
+    display: block;  
+    padding-left: 11.7vh;
+  }
+
+  .imageFour {
+    position: relative;
+    padding-bottom: 3.125vh;
+  } 
+
+  .capFour {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }
+
+  .imageFive {
+    position: relative;
+  } 
+
+  .capFive {
+    color: yellow;
+    position: absolute;
+    top: 65%;
+    width: 50%;
+    background: brown;
+  }  
+
+  /* For Contact HTML: */
+  
+  .form_Div {
+    padding-top: 3.125vh;
+    padding-left: 3.125vh;
+    padding-bottom: 3.125vh;
+  }
+
+  .name_Style {
+    color: teal;
+    padding-bottom: .78vh;
+    font-size: large;   
+  }
+
+  .email_Style {
+    color: teal;
+    padding-bottom: .78vh; 
+    font-size: large;   
+  }
+
+  .message_Style {
+    color: teal;
+    padding-bottom: .78vh;   
+    font-size: large; 
+  }
+
+  .textArea {
+    border: .47vh solid lightgray;
+    width: 95%;
+    margin: auto;
+  }
+
+  .textAreaTwo {
+    border: .47vh solid lightgray;
+    width: 95%;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+
+  /* For the links to the other pages */
+
+  a:link {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: lightgray;
+  }
+
+  a:hover {
+    color: pink;
+  }
+
+}
+
+
+
+  @media screen and (max-width: 768px) {
+    
+    body {
+      display: flex;
+      flex-flow: column;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .blank_Div{
+      width: auto;
+    }
+
+    .second_Nav {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: auto;
+      margin: 0px;
+      background: hotpink;
+    }
+
+    .about_Div {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      margin: 20px;
+      height: 100%;
+    }
+
+    .social_Div {
+      margin: 20px;
+      width: 100%;
+      display: block;
+    }
+
+    .para_Div {
+      width: 100%;
+      display: block;
+      padding-bottom: 20px; 
+    }
+
+    .lorum_Div{
+      padding-left: 20px;
+    }
+
+    .img_Class {
+      display: block;
+      margin: auto;
+    }
+
+    .style_P1{
+      text-align: center;
+      padding-right: 20px;
+    }
+
+    .footer {
+      _flex: 1;
+      width: auto;
+    }
+
+    .first_Nav {
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      border-bottom: solid gray;
+    }  
+
+    .name_Div {
+      display: block;
+      background: teal;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .links_Div {
+      background: white;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+
+  /* Portfolio Classes */
+
+  .image_Section {
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 20px;
+   }
+
+   .overallimages_Div {
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+   }
+
+   .image_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    width: auto;
+   }
+
+   .image2_Div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+   }
+
+   .imageOne {
+    width: 100%;
+    padding-left: 30px;
+   }
+
+   .imageTwo {
+    width: 100%;
+    padding-left: 30px;
+   }
+
+   .imageThree {
+    width: 100%;
+    padding-bottom: 0px;
+    padding-left: 30px;
+   }
+
+   .imageFour {
+    position: relative;
+    width: 110%;
+    padding-top: 3.125vh;
+    padding-right: 10px;
+   }
+
+   .imageFive {
+    width: 110%;
+   }
+
+   .capFive {
+    width: 60%;
+  }  
+
+   /* Contact Page */
+
+   .textArea {
+    border: .47vh solid lightgray;
+    width: 95%;
+    margin: auto;
+    }
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 640px) {
+    
+    body {
+      display: flex;
+      flex-flow: column;
+      min-height: 100vh;
+      width: auto;
+    }
+
+    .blank_Div{
+      width: auto;
+    }
+
+    .second_Nav {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: auto;
+      background: yellow;
+      margin: 0px;
+    }
+
+    .about_Div {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      margin: 20px;
+      height: 100%;
+    }
+
+    .social_Div {
+      margin: 20px;
+      width: 100%;
+      display: block;
+    }
+
+    .para_Div {
+      width: 100%;
+      display: block;
+      padding-bottom: 20px; 
+    }
+
+    .lorum_Div{
+      padding-left: 20px;
+    }
+
+    .img_Class {
+      display: block;
+      margin: auto;
+    }
+
+    .style_P1{
+      text-align: center;
+      padding-right: 20px;
+    }
+
+    .footer {
+      _flex: 1;
+      width: auto;
+    }
+
+    .first_Nav {
+      display: flex;
+      flex-flow: column;
+      width: 100%;
+      border-bottom: solid gray;
+    }  
+
+    .name_Div {
+      display: block;
+      background: teal;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .links_Div {
+      background: white;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+
+  /* Portfolio Classes */
+
+   .image_Section {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+    }
+
+    .overallimages_Div {
+      width: 100%;
+      display: block;
+      padding-bottom: 20px;
+      height: 100%;  
+    }
+   
+    .image_Div {
+      display: block;
+      margin: auto;
+      height: 100%;
+    }
+   
+    .image2_Div {
+      display: flex;
+      flex-flow: column wrap;
+      padding-left: 40px;
+      height: 100%;
+    }
+   
+    .imageOne {
+      padding-left: 40px;
+    }
+    
+    .imageTwo {
+      padding-left: 40px;
+    }
+    
+    .imageThree {
+      padding-left: 40px;
+    }
+
+    .imageFour {
+      position: relative;
+      width: 110%;
+      padding-right: 0px;
+      padding-bottom: 3.125vh;
+    }
+
+    .capFive {
+      width: 50%;
+    }  
+
+   /* Contact Page */
+
+   .textArea {
+      border: .47vh solid lightgray;
+      width: 95%;
+    }
+
+  }
