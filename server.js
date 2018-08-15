@@ -42,6 +42,8 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/winnieportfolio"
 );
 
+let db = mongoose.connection;
+
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
