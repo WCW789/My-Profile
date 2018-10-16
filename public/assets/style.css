@@ -171,6 +171,7 @@
 
   .imageTwo {
     position: relative;
+    padding-top: 3.125vh;
     padding-bottom: 3.125vh;
     padding-left: 11.7vh;
   } 
@@ -185,7 +186,7 @@
 
   .imageThree {
     position: relative;
-    padding-bottom: 3.125vh;
+    padding-top: 3.125vh;
     padding-left: 11.7vh;
   } 
 
