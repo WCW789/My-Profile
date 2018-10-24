@@ -1,1 +1,1 @@
-# MySite
+My profile: Includes a quick bio about me, a list of recent projects and a contact page.  Additionally, there are links to find me on Github, LinkedIn, and Stack Overflow
