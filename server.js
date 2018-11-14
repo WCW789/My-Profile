@@ -13,6 +13,8 @@ let app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// dfdfdfdf
+
 app.use(express.static("public"));
 
 app.use("/", express.static(path.join(__dirname, "public/index.html")));
@@ -31,7 +33,7 @@ let Contact = require("./models/code.js");
 
 console.log("what happened");
 
-app.post("/submit", function(req, res) {
+app.post("/submit", function (req, res) {
   Contact.create(req.body)
     // .then(res.json("Signed In"))
     .catch(err => res.status(422).json(err));
@@ -62,6 +64,6 @@ mongoose.connect(
 //   console.log("Mongoose connection is successful");
 // });
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
