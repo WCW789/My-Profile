@@ -6,7 +6,7 @@ const path = require("path");
 
 let PORT = process.env.PORT || 8080;
 
-let env = require("dotenv").load();
+let env = require("dotenv").load;
 let app = express();
 
 //app.use(logger("dev"));
